@@ -37,7 +37,7 @@
               </div>
 
               <div class="form-group position-relative has-icon-left mb-4">
-                  <input type="password" class="form-control form-control-xl" placeholder="{{ __('auth.password') }}" name="password">
+                  <input type="password" class="form-control form-control-xl" placeholder="{{ __('Password') }}" name="password">
                   <div class="form-control-icon">
                       <i class="bi bi-shield-lock"></i>
                   </div>
@@ -53,7 +53,7 @@
               <button type="submit" class="btn btn-primary btn-block btn-lg shadow-lg mt-5">{{ __('auth.reset_password.reset_pwd_btn') }}</button>
 
               <div class="text-center mt-5 text-lg fs-4">
-                  <p class="text-gray-600">{{ __('auth.registration.have_membership') }} <a href="{{ route('login') }}" class="font-bold">{{ __('auth.login') }}</a>.</p>
+                  <p class="text-gray-600">{{ __('auth.registration.have_membership') }} <a href="{{ route('login') }}" class="font-bold">{{ __('auth.sign_in') }}</a>.</p>
               </div>
             </form>
           </div>

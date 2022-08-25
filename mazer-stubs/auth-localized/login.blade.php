@@ -45,7 +45,7 @@
               @enderror
 
               <div class="form-group position-relative has-icon-left mb-4">
-                  <input type="password" class="form-control form-control-xl @error('password') is-invalid @enderror" placeholder="{{ __('auth.password') }}" name="password">
+                  <input type="password" class="form-control form-control-xl @error('password') is-invalid @enderror" placeholder="{{ __('Password') }}" name="password">
                   <div class="form-control-icon">
                       <i class="bi bi-shield-lock"></i>
                   </div>

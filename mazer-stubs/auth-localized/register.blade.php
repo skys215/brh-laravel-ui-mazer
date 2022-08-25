@@ -60,7 +60,7 @@
                 @enderror
 
                 <div class="form-group position-relative has-icon-left mb-4">
-                    <input type="password" name="password" class="form-control form-control-xl @error('password') is-invalid @enderror" placeholder="{{ __('auth.password') }}">
+                    <input type="password" name="password" class="form-control form-control-xl @error('password') is-invalid @enderror" placeholder="{{ __('Password') }}">
                     <div class="form-control-icon">
                         <i class="bi bi-shield-lock"></i>
                     </div>
@@ -89,7 +89,7 @@
                 <button type="submit" class="btn btn-primary btn-block btn-lg shadow-lg mt-5">{{ __('auth.register') }}</button>
             </form>
             <div class="text-center mt-5 text-lg fs-4">
-                <p class='text-gray-600'>{{ __('auth.registration.have_membership') }} <a href="{{ route('login') }}" class="font-bold">{{ __('auth.login') }}</a>.</p>
+                <p class='text-gray-600'>{{ __('auth.registration.have_membership') }} <a href="{{ route('login') }}" class="font-bold">{{ __('auth.sign_in') }}</a>.</p>
             </div>
         </div>
     </div>
