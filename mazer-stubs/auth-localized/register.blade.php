@@ -72,7 +72,7 @@
                 @enderror
 
                 <div class="form-group position-relative has-icon-left mb-4">
-                    <input type="password" name="password_confirmation" class="form-control form-control-xl @error('password_confirmation') is-invalid @enderror" placeholder="{{ __('auth.retype_password') }}">
+                    <input type="password" name="password_confirmation" class="form-control form-control-xl @error('password_confirmation') is-invalid @enderror" placeholder="{{ __('auth.confirm_password') }}">
                     <div class="form-control-icon">
                         <i class="bi bi-shield-lock"></i>
                     </div>
@@ -82,14 +82,14 @@
                     <div class="form-check">
                         <div class="checkbox">
                           <input type="checkbox" id="agreeTerms" name="terms" value="agree" class="form-check-input">
-                          <label for="terms">{{ __('auth.registration.i_agree') }} <a href="#"> {{ __('auth.registration.terms') }}</a>.</label>
+                          <label for="terms">{{ __('auth.registration.i_agree') }} <a href="#"> {{ __('auth.registration.terms') }}</a></label>
                         </div>
                       </div>
                 </div>
                 <button type="submit" class="btn btn-primary btn-block btn-lg shadow-lg mt-5">{{ __('auth.register') }}</button>
             </form>
             <div class="text-center mt-5 text-lg fs-4">
-                <p class='text-gray-600'>{{ __('auth.registration.have_membership') }} <a href="{{ route('login') }}" class="font-bold">{{ __('auth.sign_in') }}</a>.</p>
+                <p class='text-gray-600'>{{ __('auth.registration.have_membership') }} <a href="{{ route('login') }}" class="font-bold">{{ __('auth.sign_in') }}</a></p>
             </div>
         </div>
     </div>

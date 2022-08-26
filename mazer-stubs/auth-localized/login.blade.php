@@ -63,8 +63,8 @@
               <button type="submit" class="btn btn-primary btn-block btn-lg shadow-lg mt-5">{{ __('auth.sign_in') }}</button>
           </form>
           <div class="text-center mt-5 text-lg fs-4">
-              <p class="text-gray-600">{{ __('auth.registration.title') }}<a href="{{ route('register') }}" class="font-bold">{{ __('auth.register') }}</a>.</p>
-              <p><a class="font-bold" href="{{ route('password.request') }}">{{ __('auth.login.forgot_password') }}</a>.</p>
+              <p class="text-gray-600">{{ __('auth.registration.title') }}<a href="{{ route('register') }}" class="font-bold">{{ __('auth.register') }}</a></p>
+              <p><a class="font-bold" href="{{ route('password.request') }}">{{ __('auth.login.forgot_password') }}</a></p>
           </div>
         </div>
       </div>

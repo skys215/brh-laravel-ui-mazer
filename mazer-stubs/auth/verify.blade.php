@@ -17,8 +17,7 @@
           <div class="auth-logo">
               <a href="{{ url('/') }}">{{ config('app.name') }}</a>
           </div>
-          <h1 class="auth-title">Verify</h1>
-          <p class="auth-subtitle mb-5">Verify Your Email Address</p>
+          <h1 class="auth-title">Verify Your Email Address</h1>
 
           <div>
               @if (session('resent'))
