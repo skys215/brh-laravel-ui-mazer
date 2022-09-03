@@ -29,6 +29,9 @@
                         <div class="col-12 col-md-6 order-md-1 order-last">
                             <h3>@yield('title', 'Dashboard')</h3>
                         </div>
+                        <div class="col-12 col-md-6 order-md-1 order-last">
+                            @yield('page-action')
+                        </div>
                     </div>
                 </div>
                 <section class="section">
